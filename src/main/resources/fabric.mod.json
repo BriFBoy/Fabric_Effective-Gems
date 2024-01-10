@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "effectivegems",
+	"version": "${version}",
+	"name": "Effective Gems",
+	"description": "This is a gem mod for minecraft 1.12.4",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/effectivegems/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.brifboy.effectivegems.EffectiveGems"
+		],
+		"client": [
+			"net.brifboy.effectivegems.EffectiveGemsClient"
+		],
+		"fabric-datagen": [
+			"net.brifboy.effectivegems.EffectiveGemsDataGenerator"
+		]
+	},
+	"mixins": [
+		"effectivegems.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.3",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
