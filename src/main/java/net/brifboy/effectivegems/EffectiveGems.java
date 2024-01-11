@@ -1,5 +1,7 @@
 package net.brifboy.effectivegems;
 
+import net.brifboy.effectivegems.item.ModItem;
+import net.brifboy.effectivegems.item.ModItemGroupe;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -12,6 +14,9 @@ public class EffectiveGems implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItem.registerModItems();
+		ModItemGroupe.registerItemGroups();
+
 
 	}
 }
