@@ -1,5 +1,6 @@
 package net.brifboy.effectivegems;
 
+import net.brifboy.effectivegems.block.Modblock;
 import net.brifboy.effectivegems.item.ModItem;
 import net.brifboy.effectivegems.item.ModItemGroupe;
 import net.fabricmc.api.ModInitializer;
@@ -16,6 +17,7 @@ public class EffectiveGems implements ModInitializer {
 	public void onInitialize() {
 		ModItem.registerModItems();
 		ModItemGroupe.registerItemGroups();
+		Modblock.registerModBlocks();
 
 
 	}
