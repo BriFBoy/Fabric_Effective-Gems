@@ -3,6 +3,7 @@ package net.brifboy.effectivegems;
 import net.brifboy.effectivegems.block.Modblock;
 import net.brifboy.effectivegems.item.ModItem;
 import net.brifboy.effectivegems.item.ModItemGroupe;
+import net.brifboy.effectivegems.world.gen.ModWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -18,6 +19,7 @@ public class EffectiveGems implements ModInitializer {
 		ModItem.registerModItems();
 		ModItemGroupe.registerItemGroups();
 		Modblock.registerModBlocks();
+		ModWorldGeneration.generateModWorldGen();
 
 
 	}

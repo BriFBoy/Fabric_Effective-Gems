@@ -32,6 +32,9 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItem.GREEN_GEM, Models.GENERATED);
         itemModelGenerator.register(ModItem.BLUE_GEM, Models.GENERATED);
         itemModelGenerator.register(ModItem.BLACK_GEM, Models.GENERATED);
+        itemModelGenerator.register(ModItem.GREEN_GEM_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItem.BLUE_GEM_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItem.BLACK_GEM_SWORD, Models.HANDHELD);
 
         itemModelGenerator.registerArmor(((ArmorItem) ModItem.BLUE_GEM_HELMET));
         itemModelGenerator.registerArmor(((ArmorItem) ModItem.BLUE_GEM_CHESTPLATE));

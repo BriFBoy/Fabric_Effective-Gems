@@ -24,6 +24,10 @@
   "item.effectivegems.black_gem_helmet": "Black Gem Helmet",
   "item.effectivegems.black_gem_chestplate": "Black Gem Chestplate",
   "item.effectivegems.black_gem_leggings": "Black Gem Leggings",
-  "item.effectivegems.black_gem_boots": "Black Gem Boots"
+  "item.effectivegems.black_gem_boots": "Black Gem Boots",
+
+  "item.effectivegems.green_gem_sword": "Green Gem Sword",
+  "item.effectivegems.blue_gem_sword": "Blue Gem Sword",
+  "item.effectivegems.black_gem_sword": "Black Gem Sword"
 
 }

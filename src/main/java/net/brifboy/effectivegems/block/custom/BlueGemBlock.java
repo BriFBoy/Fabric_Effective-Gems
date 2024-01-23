@@ -21,7 +21,6 @@ public class BlueGemBlock extends Block{
             if (entity.isPlayer() && !((PlayerEntity) entity).hasStatusEffect(StatusEffects.SPEED)) {
                 ((PlayerEntity) entity).addStatusEffect(new StatusEffectInstance(StatusEffects.SPEED, 200, 3,
                         false, false, false));
-
             }
 
 

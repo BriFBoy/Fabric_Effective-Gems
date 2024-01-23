@@ -40,6 +40,10 @@ public class ModItemGroupe {
                     entries.add(ModItem.BLACK_GEM_LEGGINGS);
                     entries.add(ModItem.BLACK_GEM_BOOTS);
 
+                    entries.add(ModItem.GREEN_GEM_SWORD);
+                    entries.add(ModItem.BLUE_GEM_SWORD);
+                    entries.add(ModItem.BLACK_GEM_SWORD);
+
                     entries.add(Modblock.BLUE_GEM_BLOCK);
                     entries.add(Modblock.GREEN_GEM_BLOCK);
                     entries.add(Modblock.BLACK_GEM_BLOCK);

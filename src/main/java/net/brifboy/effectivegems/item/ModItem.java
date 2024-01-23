@@ -5,6 +5,7 @@ import net.brifboy.effectivegems.item.custom.ModArmorItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.Item;
+import net.minecraft.item.SwordItem;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -14,6 +15,13 @@ public class ModItem{
     public static final Item GREEN_GEM = registerItem("green_gem", new Item(new FabricItemSettings()));
     public static final Item BLUE_GEM = registerItem("blue_gem", new Item(new FabricItemSettings()));
     public static final Item BLACK_GEM = registerItem("black_gem", new Item(new FabricItemSettings()));
+
+    public static final Item GREEN_GEM_SWORD = registerItem("green_gem_sword",
+            new SwordItem(ModToolMaterials.GREEN_GEM, 4, 1.6f, new FabricItemSettings()));
+    public static final Item BLUE_GEM_SWORD = registerItem("blue_gem_sword",
+            new SwordItem(ModToolMaterials.BLUE_GEM, 5, 3.0f, new FabricItemSettings()));
+    public static final Item BLACK_GEM_SWORD = registerItem("black_gem_sword",
+            new SwordItem(ModToolMaterials.BLACK_GEM, 6, 1.6f, new FabricItemSettings()));
 
     public static final Item BLUE_GEM_HELMET = registerItem("blue_gem_helmet",
             new ModArmorItem(ModArmorMaterials.BLUE_GEM, ArmorItem.Type.HELMET, new FabricItemSettings()));
